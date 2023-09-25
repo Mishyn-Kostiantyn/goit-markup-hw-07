@@ -26,7 +26,8 @@
           <a class="logo link" href="./index.html">
             Web<span class="logo-text">Studio</span></a
           >
-          <!-- Menu-button -->
+
+          <!-- Mobile-Menu-button-open -->
           <button
             type="button"
             class="menu-button js-open-menu"
@@ -34,10 +35,6 @@
             aria-controls="mobile-menu"
           >
             <svg width="32" height="22" aria-label="Mobile menu switch">
-              <use
-                class="icon-close"
-                href="./images/icons.svg#icon-close-button1"
-              ></use>
               <use
                 class="icon-hamburger"
                 href="./images/icons.svg#icon-charm_menu-hamburger"
@@ -69,6 +66,71 @@
             </li>
           </ul>
         </address>
+      </div>
+      <!-- Mobile-menu -->
+      <div class="menu-container js-menu-container" id="mobile-menu">
+        <button type="button" class="menu-button js-close-menu">
+          <svg width="8" height="8">
+            <use class="icon-close"
+              href="./images/icons.svg#icon-close-button1"
+            ></use>
+    
+          </svg>
+        </button>
+        <ul class="mobile-menu list">
+            <li class="item">
+              <a class="current-mobile option-mobile link" href="./index.html">Studio</a>
+            </li>
+            <li class="item">
+              <a class="option-mobile link" href="./portfolio.html">Portfolio</a>
+            </li>
+            <li class="item"><a class="option-mobile link" href="">Contacts</a></li>
+          </ul>
+        </nav>
+        <address class="address-mobile">
+          <ul class="contacts-mobile list">
+                      <li class="item">
+              <a class="mobile-contacts-phone link" href="tel:+110001111111"
+                >+11 (000) 111-11-11</a
+              >
+            </li>
+              <li class="item">
+              <a class="mobile-contacts-email link" href="mailto:info@devstudio.com"
+                >info@devstudio.com</a
+              >
+            </li>
+          </ul>
+        </address>
+        <ul class="mobile-social list">
+                  <li class="item">
+                    <a class="link" href="">
+                      <svg class="icon" width="24" height="24">
+                        <use href="./images/icons.svg#icon-instagram-2"></use>
+                      </svg>
+                    </a>
+                  </li>
+                  <li class="item">
+                    <a class="link" href="">
+                      <svg class="icon" width="24" height="24">
+                        <use href="./images/icons.svg#icon-twitter-1"></use>
+                      </svg>
+                    </a>
+                  </li>
+                  <li class="item">
+                    <a class="link" href="">
+                      <svg class="icon" width="24" height="24">
+                        <use href="./images/icons.svg#icon-facebook-1"></use>
+                      </svg>
+                    </a>
+                  </li>
+                  <li class="item">
+                    <a class="link" href="">
+                      <svg class="icon" width="24" height="24">
+                        <use href="./images/icons.svg#icon-linkedin-1"></use>
+                      </svg>
+                    </a>
+                  </li>
+                </ul>
       </div>
     </header>
     <main>
@@ -537,5 +599,6 @@
       </div>
     </div>
     <script src="./js/modal.js"></script>
+    <script src="./js/mobile-menu.js"></script>
   </body>
 </html>
