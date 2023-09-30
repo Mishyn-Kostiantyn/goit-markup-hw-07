@@ -884,6 +884,7 @@ img {
   padding: 72px 24px 24px 24px;
   @media screen and (max-width: 428px) {
     width: calc(100vw - 36px);
+    padding: 72px 16px 16px 16px;
     /* width: 380px; */
   }
   background-color: #fcfcfc;
@@ -931,7 +932,7 @@ img {
   flex-direction: column;
   width: 360px;
   @media screen and (max-width: 428px) {
-    width: calc(100vw - 84px);
+    width: calc(100vw - 68px);
   }
   align-items: center;
 }
