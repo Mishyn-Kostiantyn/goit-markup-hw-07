@@ -267,6 +267,10 @@ img {
   letter-spacing: 0.72px;
   text-transform: capitalize;
   color: var(--accent-color);
+  @media screen and (min-width: 300px) and (max-width: 396px) {
+    font-size: 28px;
+    letter-spacing: 0.42px;
+  }
 }
 .mobile-contacts-email {
   font-family: Roboto;
@@ -283,7 +287,11 @@ img {
 }
 .mobile-social .item:not(:last-child) {
   margin-right: 56px;
+  @media screen and (min-width: 300px) and (max-width: 396px) {
+    margin-right: 32px;
+  }
 }
+
 .mobile-social .item .icon {
   fill: #f4f4fd;
 }
